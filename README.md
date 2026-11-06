@@ -1,13 +1,10 @@
 # Tropestorm
 
-Tropestorm is a trope-based premise finder for fiction writers. It is a folder of Markdown files and agent instructions that you run inside your own coding agent (any agent that reads `AGENTS.md`). The agent interviews you about what you love and hate in fiction, translates the interview into a weighted profile of tropes named as the [TV Tropes](https://tvtropes.org) wiki names them, finds comparable titles by trope overlap, and then runs short rounds. Each round is ten premises of at most a paragraph each. Under each premise you answer three questions in prose: what you like, what you dislike and what is missing. The profile updates and the next ten premises land closer. When you say "I'd write this," the agent expands one premise into a pitch and stress-tests it.
+Tropestorm is a brainstorming tool to help writers come up with original story ideas they'd be excited about writing. Originally created for fanfiction writers who want to expand into writing original fiction but can't come up with a story of their own that excites them as much as fanfiction does, Tropestorm helps writers brainstorm by interviewing them about media that already exists, asking them what they like, don't like, and feel is missing from each. Along the way, writers share what they do and don't like in stories in general. The AI then decomposes these into tropes, named as the [TV Tropes](https://tvtropes.org) wiki names them, and uses these tropes as the basis for generating and pitching new ideas to the writer. The same trope profile also identifies comps: the published works closest to what you want to write.
 
-Tropestorm is not a writing tool, a plot generator or a chatbot wrapper. It writes no prose for your book, it keeps a profile you can read and edit by hand, and it stops when you have a premise you want to write. You only react; the agent runs everything else.
+## How it works
 
-## Who it is for
-
-Writers who know what they enjoy reading but cannot yet name the premise they want to write, and who are willing to talk to a coding agent for a half hour and answer in a few sentences per premise. You need a coding agent that can read and write files in a folder. You need no programming.
-
+Tropestorm is a folder of Markdown files and agent instructions that you run inside your own coding agent (any agent that reads `AGENTS.md`); you need no programming. Each round is ten premises of at most a paragraph each. Under each premise you answer three questions in prose: what you like, what you dislike and what is missing. The profile updates and the next ten premises land closer. When you say "I'd write this," the agent expands one premise into a pitch and stress-tests it. Tropestorm writes no prose for your book, keeps a profile you can read and edit by hand, and stops when you have a premise you want to write. You only give feedback; the agent runs everything else.
 ## Five-minute start
 
 1. Clone this repository and open your coding agent in the folder.
