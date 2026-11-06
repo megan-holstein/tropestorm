@@ -1,0 +1,8 @@
+# Personal data: a taste profile and a writer's ideas never enter the public history.
+# The leading slash anchors each entry to the repository root, so _template/writer/ stays tracked.
+/writer/
+/ideas/
+/research_notes/
+/reports/
+.DS_Store
+**/.claude/settings.local.json
